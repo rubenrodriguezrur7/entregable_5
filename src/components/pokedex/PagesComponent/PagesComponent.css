@@ -1,0 +1,27 @@
+.page_container {
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.back_btn, .next_btn {
+    border: none;
+    color: red;
+    font-size: 15px;
+}
+
+.page_btn {
+    height: 25px;
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.page_btn:hover {
+    background-color: rgb(236, 58, 58);
+}
+
+@media screen and (max-width: 320px) {
+    .page_container {
+        padding: 0px;
+    }    
+}

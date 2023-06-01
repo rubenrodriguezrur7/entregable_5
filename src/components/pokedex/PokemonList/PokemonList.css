@@ -1,0 +1,10 @@
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+
+.card-container li {
+    list-style: none;
+}

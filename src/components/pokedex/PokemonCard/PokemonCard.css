@@ -1,0 +1,68 @@
+.pokemon-card {
+    width: 400px;
+    height: 315px;
+    margin-top: 30px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/src/assets/HD-wallpaper-arcanine-pokemon-pokemon-deviantart-artist-jpg.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    border-color: rgb(177, 174, 22) solid;
+    box-shadow: 5px 8px 12px rgb(53, 47, 47);
+    color: antiquewhite;
+    transition: 0.5s;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-13px);
+}
+
+.pokemon-card_title {
+    margin-bottom: 0px;
+    font-size: 28px;
+    line-height: 30px;
+    color: #d6be22;
+}
+
+.pokemon-card_subtitle {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.pokemon-card_list {
+    padding-left: 0;
+}
+
+.pokemon-card_item {
+    margin-top: 10px;
+}
+
+.pokemon-card_item span {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    background-color: rgb(221, 56, 52, 0.3) ;
+    border-radius: 20px;
+}
+
+.pokemon-card_right {
+    display: flex;
+    align-items: center;
+}
+
+
+.pokemon-card_img img {
+    max-width: 150px;
+    transition: 0.5s;
+}
+
+.pokemon-card_img img:hover {
+    transform: translateY(-13px);
+}
+
+@media screen and (max-width: 320px) {
+    .pokemon-card {
+        width: 310px;
+    }
+}

@@ -1,0 +1,25 @@
+.home_form-aux {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.input_home {
+    width: 310px;
+    height: 50px;
+    border: none;
+    border-style: inset;
+    font-size: 22px;
+}
+
+.home_btn {
+    max-height: 80px;
+    background-color:  #d93f3f;
+    border: none;
+    border-style: outset;
+    border-color: #d93f3f;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}

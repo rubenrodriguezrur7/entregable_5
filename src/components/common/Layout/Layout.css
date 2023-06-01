@@ -1,0 +1,27 @@
+.logo-header {
+    max-height: 140px;
+    margin-top: 20px;
+    background-color: rgb(223, 36, 42);
+    text-align: center;
+}
+
+.logo-header img {
+    max-width: 90%;
+}
+
+.logo-header_aux {
+    height: 70px;
+    background-color: black;
+}
+
+.logout_btn {
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    background-color: #7c7a7a;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}

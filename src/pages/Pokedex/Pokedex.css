@@ -1,0 +1,19 @@
+.pokedex_message {
+  font-weight: 700;
+  font-size: 42px;
+  text-align: center;
+}
+
+.pokedex_message_username {
+  font-weight: 700;
+  font-style: normal;
+  color: #DD1A1A;
+}
+
+
+@media screen and (max-width: 320px) {
+  .pokedex_message {
+    font-size: 25px;
+    margin-bottom: -40px;
+  }
+}
