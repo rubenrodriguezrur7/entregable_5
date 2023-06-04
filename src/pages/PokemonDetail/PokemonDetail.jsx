@@ -93,40 +93,4 @@ const PokemonDetail = () => {
 };
 
 export default PokemonDetail;
-  
-  
  
-
-
-/*import React, { useState, useEffect } from 'react';
-import axios from 'axios';
-
-function Pokemon({ id }) {
-  const [pokemon, setPokemon] = useState(null);
-
-  useEffect(() => {
-    const getPokemon = async () => {
-      const response = await axios.get(`https://pokeapi.co/api/v2/pokemon/${id}`);
-      setPokemon(response.data);
-    };
-    getPokemon();
-  }, [id]);
-
-  if (!pokemon) return <div>Loading...</div>;
-
-  return (
-    <div>
-      <h1>{pokemon.name}</h1>
-      <img src={pokemon.sprites.front_default} alt={pokemon.name} />
-      <h2>Moves:</h2>
-      <ul>
-        {pokemon.moves.map(move => (
-          <li key={move.move.name}>{move.move.name}</li>
-        ))}
-      </ul>
-    </div>
-  );
-}*/
-
-/*const [pokemon, setPokemon] = useState('')
-const {pokemonId} = useParams();*/
