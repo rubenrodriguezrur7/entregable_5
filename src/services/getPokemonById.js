@@ -24,6 +24,8 @@ export const getPokemonById = async (id) => {
         value: statInfo.base_stat,
       })),
       image: getPokemonImg(pokemonData.sprites),
+      moves: pokemonData.moves.map(moveInfo => moveInfo.move.name),
+      abilities: pokemonData.abilities.map(abilityInfo => abilityInfo.ability.name),
     };
 
     return adaptedPokemon;
