@@ -1,12 +1,9 @@
 .logo-header {
-    max-height: 140px;
+    height: 370px;
     margin-top: 20px;
-    background-color: rgb(223, 36, 42);
-    text-align: center;
-}
-
-.logo-header img {
-    max-width: 90%;
+    background-image: url(/src/assets/pokedex-3d-logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .logo-header_aux {
@@ -25,3 +22,21 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .logo-header  {
+        height: 220px;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .logo-header  {
+        height: 140px;
+    }
+  }
+  
+  @media screen and (max-width: 320px) {
+    .logo-header  {
+        height: 90px;
+    }
+  }
